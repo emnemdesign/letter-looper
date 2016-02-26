@@ -1,5 +1,13 @@
-var newLetter = prompt('Enter a letter:')
+var counter;
 
-if (newLetter == 'm')
+for (counter = 0; counter < 10; counter++) { 
+	docuent.write('m');
 
-document.write 
+}
+
+var newLetter = '';
+
+while (!newLetter) {
+newLetter = prompt('Enter a letter:');
+
+document.write(newLetter);
