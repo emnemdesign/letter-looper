@@ -1,13 +1,14 @@
 var counter;
 
 for (counter = 0; counter < 10; counter++) { 
-	docuent.write('m');
+	document.write('m');
 
 }
 
-var newLetter = '';
+var name = '';
 
-while (!newLetter) {
-newLetter = prompt('Enter a letter:');
+while (!name) {
+name = prompt('Enter a letter:');
+}
 
-document.write(newLetter);
+document.write(name);
